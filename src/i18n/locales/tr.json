@@ -1,0 +1,73 @@
+{
+  "common": {
+    "home": "Ana sayfa",
+    "backToHome": "Ana sayfaya dön",
+    "language": "Dil",
+    "movie": "Film",
+    "tvShow": "Dizi",
+    "loading": "Yükleniyor",
+    "retry": "Tekrar dene",
+    "loadMore": "Daha fazla yükle",
+    "error": "Bir hata oluştu",
+    "unknown": "Bilinmiyor",
+    "noResults": "Sonuç bulunamadı",
+    "viewAll": "Tümünü gör",
+    "posterAlt": "Afiş",
+    "homePage": "Ana sayfa",
+    "invalidLink": "Geçersiz bağlantı",
+    "somethingWentWrong": "Bir şeyler ters gitti",
+    "contentUnavailable": "İçerik mevcut değil",
+    "back": "Geri"
+  },
+  "home": {
+    "title": "Seyriva",
+    "subtitle": "İzlemek istediğin film veya diziyi keşfet.",
+    "placeholder": "Film veya dizi ara...",
+    "ariaLabel": "Film veya dizi ara",
+    "searchError": "Arama sırasında bir hata oluştu.",
+    "shortQuery": "Arama yapmak için en az {count} karakter yaz.",
+    "noResultsHint": "Farklı bir film veya dizi adıyla tekrar dene.",
+    "popularMoviesTitle": "Haftanın popülerleri",
+    "popularMoviesDescription": "Şu sıralar en çok ilgi gören filmler.",
+    "popularTvTitle": "Popüler diziler",
+    "popularTvDescription": "İzleyicilerin şu anda takip ettiği diziler.",
+    "topRatedTitle": "En yüksek puanlı filmler",
+    "topRatedDescription": "İzleyicilerden en yüksek puanları alan filmler."
+  },
+  "browse": {
+    "invalidCategoryTitle": "Kategori bulunamadı",
+    "invalidCategoryDescription": "Aradığın içerik kategorisi mevcut değil.",
+    "contentError": "İçerikler yüklenirken bir hata oluştu.",
+    "failedToLoad": "İçerikler yüklenemedi",
+    "retry": "Tekrar dene",
+    "categoryTitle": "Kategori bulunamadı",
+    "categoryDescription": "Aradığın içerik kategorisi mevcut değil."
+  },
+  "watch": {
+    "invalidLinkDescription": "Film veya dizi bağlantısı geçerli değil.",
+    "detailsError": "Yapım bilgileri alınırken bir hata oluştu.",
+    "notFound": "Yapım bulunamadı.",
+    "invalidLink": "Geçersiz bağlantı"
+  },
+  "media": {
+    "overviewFallback": "Bu yapım için henüz bir açıklama bulunmuyor.",
+    "topic": "Konu",
+    "genre": "Tür",
+    "releaseDate": "Yayın tarihi",
+    "status": "Durum",
+    "runtime": "Süre",
+    "episodeRuntime": "Bölüm süresi",
+    "season": "Sezon",
+    "episode": "Bölüm",
+    "officialSite": "Resmî site",
+    "votes": "oy",
+    "hoursShort": "sa",
+    "minutesShort": "dk",
+    "hourShort": "sa",
+    "minuteShort": "dk",
+    "posterAlt": "Afiş",
+    "noPoster": "Afiş yok",
+    "typeLabel": "Tür",
+    "originalTitle": "Orijinal başlık"
+  }
+}

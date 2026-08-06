@@ -1,0 +1,71 @@
+{
+  "common": {
+    "home": "Inicio",
+    "backToHome": "Volver al inicio",
+    "language": "Idioma",
+    "movie": "Película",
+    "tvShow": "Serie",
+    "loading": "Cargando",
+    "retry": "Reintentar",
+    "loadMore": "Cargar más",
+    "error": "Algo salió mal",
+    "unknown": "Desconocido",
+    "noResults": "No hay resultados",
+    "viewAll": "Ver todo",
+    "posterAlt": "Póster",
+    "homePage": "Inicio",
+    "invalidLink": "Enlace no válido",
+    "somethingWentWrong": "Algo salió mal",
+    "contentUnavailable": "El contenido no está disponible",
+    "back": "Atrás"
+  },
+  "home": {
+    "title": "Seyriva",
+    "subtitle": "Descubre la película o serie que quieres ver.",
+    "placeholder": "Busca una película o serie...",
+    "ariaLabel": "Busca una película o serie",
+    "searchError": "Ocurrió un error al buscar.",
+    "shortQuery": "Escribe al menos {count} caracteres para buscar.",
+    "noResultsHint": "Prueba con un título diferente de película o serie.",
+    "popularMoviesTitle": "Populares esta semana",
+    "popularMoviesDescription": "Descubre las películas que más conversación están generando ahora.",
+    "popularTvTitle": "Series populares",
+    "popularTvDescription": "Las series que los espectadores siguen más en este momento.",
+    "topRatedTitle": "Películas mejor valoradas",
+    "topRatedDescription": "Películas con las puntuaciones más altas del público."
+  },
+  "browse": {
+    "invalidCategoryTitle": "Categoría no encontrada",
+    "invalidCategoryDescription": "La categoría de contenido que buscas no existe.",
+    "contentError": "Ocurrió un error al cargar el contenido.",
+    "failedToLoad": "No se pudo cargar el contenido",
+    "retry": "Reintentar"
+  },
+  "watch": {
+    "invalidLinkDescription": "El enlace de la película o serie no es válido.",
+    "detailsError": "Ocurrió un error al recuperar los detalles de la producción.",
+    "notFound": "No se encontró la producción.",
+    "invalidLink": "Enlace no válido"
+  },
+  "media": {
+    "overviewFallback": "Todavía no hay una descripción disponible para esta producción.",
+    "topic": "Resumen",
+    "genre": "Género",
+    "releaseDate": "Fecha de estreno",
+    "status": "Estado",
+    "runtime": "Duración",
+    "episodeRuntime": "Duración del episodio",
+    "season": "Temporada",
+    "episode": "Episodio",
+    "officialSite": "Sitio oficial",
+    "votes": "votos",
+    "hoursShort": "h",
+    "minutesShort": "min",
+    "hourShort": "h",
+    "minuteShort": "min",
+    "posterAlt": "Póster",
+    "noPoster": "Sin póster",
+    "typeLabel": "Tipo",
+    "originalTitle": "Título original"
+  }
+}

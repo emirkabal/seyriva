@@ -1,0 +1,71 @@
+{
+  "common": {
+    "home": "Accueil",
+    "backToHome": "Retour à l’accueil",
+    "language": "Langue",
+    "movie": "Film",
+    "tvShow": "Série",
+    "loading": "Chargement",
+    "retry": "Réessayer",
+    "loadMore": "Charger plus",
+    "error": "Une erreur s’est produite",
+    "unknown": "Inconnu",
+    "noResults": "Aucun résultat",
+    "viewAll": "Tout voir",
+    "posterAlt": "Affiche",
+    "homePage": "Accueil",
+    "invalidLink": "Lien invalide",
+    "somethingWentWrong": "Une erreur s’est produite",
+    "contentUnavailable": "Le contenu est indisponible",
+    "back": "Retour"
+  },
+  "home": {
+    "title": "Seyriva",
+    "subtitle": "Découvrez le film ou la série que vous souhaitez regarder.",
+    "placeholder": "Rechercher un film ou une série...",
+    "ariaLabel": "Rechercher un film ou une série",
+    "searchError": "Une erreur s’est produite lors de la recherche.",
+    "shortQuery": "Saisissez au moins {count} caractères pour rechercher.",
+    "noResultsHint": "Essayez un autre titre de film ou de série.",
+    "popularMoviesTitle": "Populaires cette semaine",
+    "popularMoviesDescription": "Découvrez les films qui suscitent le plus d’intérêt en ce moment.",
+    "popularTvTitle": "Séries populaires",
+    "popularTvDescription": "Les séries que les spectateurs suivent actuellement le plus.",
+    "topRatedTitle": "Films les mieux notés",
+    "topRatedDescription": "Les films avec les meilleures notes de la part des spectateurs."
+  },
+  "browse": {
+    "invalidCategoryTitle": "Catégorie introuvable",
+    "invalidCategoryDescription": "La catégorie de contenu que vous recherchez n’existe pas.",
+    "contentError": "Une erreur s’est produite lors du chargement du contenu.",
+    "failedToLoad": "Le contenu n’a pas pu être chargé",
+    "retry": "Réessayer"
+  },
+  "watch": {
+    "invalidLinkDescription": "Le lien du film ou de la série n’est pas valide.",
+    "detailsError": "Une erreur s’est produite lors de la récupération des détails de la production.",
+    "notFound": "Production introuvable.",
+    "invalidLink": "Lien invalide"
+  },
+  "media": {
+    "overviewFallback": "Aucune description n’est disponible pour cette production pour le moment.",
+    "topic": "Résumé",
+    "genre": "Genre",
+    "releaseDate": "Date de sortie",
+    "status": "Statut",
+    "runtime": "Durée",
+    "episodeRuntime": "Durée d’épisode",
+    "season": "Saison",
+    "episode": "Épisode",
+    "officialSite": "Site officiel",
+    "votes": "votes",
+    "hoursShort": "h",
+    "minutesShort": "min",
+    "hourShort": "h",
+    "minuteShort": "min",
+    "posterAlt": "Affiche",
+    "noPoster": "Pas d’affiche",
+    "typeLabel": "Type",
+    "originalTitle": "Titre original"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "common": {
+    "home": "Home",
+    "backToHome": "Back to home",
+    "language": "Language",
+    "movie": "Movie",
+    "tvShow": "TV show",
+    "loading": "Loading",
+    "retry": "Try again",
+    "loadMore": "Load more",
+    "error": "Something went wrong",
+    "unknown": "Unknown",
+    "noResults": "No results",
+    "viewAll": "View all",
+    "posterAlt": "Poster",
+    "homePage": "Home",
+    "invalidLink": "Invalid link",
+    "somethingWentWrong": "Something went wrong",
+    "contentUnavailable": "Content is unavailable",
+    "back": "Back"
+  },
+  "home": {
+    "title": "Seyriva",
+    "subtitle": "Discover the movie or series you want to watch.",
+    "placeholder": "Search for a movie or series...",
+    "ariaLabel": "Search for a movie or series",
+    "searchError": "An error occurred while searching.",
+    "shortQuery": "Type at least {count} characters to search.",
+    "noResultsHint": "Try a different movie or series title.",
+    "popularMoviesTitle": "Popular this week",
+    "popularMoviesDescription": "Discover the movies generating the most buzz right now.",
+    "popularTvTitle": "Popular series",
+    "popularTvDescription": "Series that viewers are currently following the most.",
+    "topRatedTitle": "Top rated movies",
+    "topRatedDescription": "Movies with the highest audience scores."
+  },
+  "browse": {
+    "invalidCategoryTitle": "Category not found",
+    "invalidCategoryDescription": "The content category you are looking for does not exist.",
+    "contentError": "An error occurred while loading content.",
+    "failedToLoad": "Content could not be loaded",
+    "retry": "Try again"
+  },
+  "watch": {
+    "invalidLinkDescription": "The movie or series link is not valid.",
+    "detailsError": "An error occurred while retrieving the production details.",
+    "notFound": "Production not found.",
+    "invalidLink": "Invalid link"
+  },
+  "media": {
+    "overviewFallback": "No description is available for this title yet.",
+    "topic": "Overview",
+    "genre": "Genre",
+    "releaseDate": "Release date",
+    "status": "Status",
+    "runtime": "Runtime",
+    "episodeRuntime": "Episode runtime",
+    "season": "Season",
+    "episode": "Episode",
+    "officialSite": "Official site",
+    "votes": "votes",
+    "hoursShort": "hr",
+    "minutesShort": "min",
+    "hourShort": "hr",
+    "minuteShort": "min",
+    "posterAlt": "Poster",
+    "noPoster": "No poster",
+    "typeLabel": "Type",
+    "originalTitle": "Original title"
+  }
+}
