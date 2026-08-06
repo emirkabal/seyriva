@@ -1,9 +1,4 @@
-import {
-  Check,
-  Laptop,
-  Moon,
-  Sun,
-} from "lucide-react"
+import { Check, Laptop, Moon, Sun } from "lucide-react"
 
 import { useTheme } from "@/components/theme-provider"
 import { Button } from "@/components/ui/button"
@@ -35,28 +30,19 @@ const THEMES = [
 export function ThemeSwitcher() {
   const { theme, setTheme } = useTheme()
 
-  const currentTheme =
-    THEMES.find((item) => item.value === theme) ??
-    THEMES[2]
+  const currentTheme = THEMES.find((item) => item.value === theme) ?? THEMES[2]
 
   const CurrentIcon = currentTheme.icon
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
-        <Button
-          variant="ghost"
-          size="icon"
-          aria-label="Tema değiştir"
-        >
+        <Button variant="ghost" size="icon" aria-label="Tema değiştir">
           <CurrentIcon className="size-4" />
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent
-        align="end"
-        className="min-w-36"
-      >
+      <DropdownMenuContent align="end" className="min-w-36">
         {THEMES.map((item) => {
           const Icon = item.icon
           const isActive = theme === item.value
@@ -69,13 +55,9 @@ export function ThemeSwitcher() {
             >
               <Icon className="size-4" />
 
-              <span className="flex-1">
-                {item.label}
-              </span>
+              <span className="flex-1">{item.label}</span>
 
-              {isActive && (
-                <Check className="size-4 text-muted-foreground" />
-              )}
+              {isActive && <Check className="size-4 text-muted-foreground" />}
             </DropdownMenuItem>
           )
         })}

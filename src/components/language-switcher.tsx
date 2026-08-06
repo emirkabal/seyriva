@@ -20,7 +20,7 @@ export function LanguageSwitcher() {
 
   const currentOption =
     SUPPORTED_LANGUAGES.find(
-      (language) => language.value === currentLanguage,
+      (language) => language.value === currentLanguage
     ) ?? SUPPORTED_LANGUAGES[0]
 
   async function changeLanguage(language: Language) {
@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger >
+      <DropdownMenuTrigger>
         <Button
           variant="ghost"
           size="sm"
@@ -38,9 +38,7 @@ export function LanguageSwitcher() {
         >
           <Languages className="size-4" />
 
-          <span className="hidden sm:inline">
-            {currentOption.nativeLabel}
-          </span>
+          <span className="hidden sm:inline">{currentOption.nativeLabel}</span>
         </Button>
       </DropdownMenuTrigger>
 
@@ -56,9 +54,7 @@ export function LanguageSwitcher() {
             >
               <span>{language.nativeLabel}</span>
 
-              {isActive && (
-                <Check className="size-4 text-muted-foreground" />
-              )}
+              {isActive && <Check className="size-4 text-muted-foreground" />}
             </DropdownMenuItem>
           )
         })}

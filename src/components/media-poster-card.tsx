@@ -7,15 +7,13 @@ interface MediaPosterCardProps {
   media: Media
 }
 
-export function MediaPosterCard({
-  media,
-}: MediaPosterCardProps) {
+export function MediaPosterCard({ media }: MediaPosterCardProps) {
   const { t } = useTranslation()
 
   return (
     <Link
       to={`/w/${media.mediaType}/${media.id}`}
-      className="group block w-35 shrink-0 sm:w-40 select-none"
+      className="group block w-35 shrink-0 select-none sm:w-40"
     >
       <div className="relative aspect-2/3 overflow-hidden rounded-xl bg-muted">
         {media.posterUrl ? (
@@ -32,7 +30,7 @@ export function MediaPosterCard({
         )}
 
         {media.voteAverage > 0 && (
-          <div className="absolute bottom-2 right-2 flex items-center gap-1 rounded-md bg-background/85 px-2 py-1 text-xs font-medium backdrop-blur-md">
+          <div className="absolute right-2 bottom-2 flex items-center gap-1 rounded-md bg-background/85 px-2 py-1 text-xs font-medium backdrop-blur-md">
             <Star className="size-3 fill-current" />
             {media.voteAverage.toFixed(1)}
           </div>
@@ -40,9 +38,7 @@ export function MediaPosterCard({
       </div>
 
       <div className="mt-2">
-        <p className="truncate text-sm font-medium">
-          {media.title}
-        </p>
+        <p className="truncate text-sm font-medium">{media.title}</p>
 
         <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
           {media.mediaType === "movie" ? (
@@ -52,7 +48,9 @@ export function MediaPosterCard({
           )}
 
           <span>
-            {media.mediaType === "movie" ? t("common.movie") : t("common.tvShow")}
+            {media.mediaType === "movie"
+              ? t("common.movie")
+              : t("common.tvShow")}
           </span>
 
           {media.year && (

@@ -7,24 +7,16 @@ interface MediaPlayerProps {
 }
 
 function buildPlayerUrl(type: "movie" | "tv", id: number) {
-  const template = "https://cinesrc.st/embed/{type}/{id}" as
-    | string
-    | undefined
+  const template = "https://cinesrc.st/embed/{type}/{id}" as string | undefined
 
   if (!template) {
     return null
   }
 
-  return template
-    .replaceAll("{type}", type)
-    .replaceAll("{id}", String(id))
+  return template.replaceAll("{type}", type).replaceAll("{id}", String(id))
 }
 
-export function MediaPlayer({
-  type,
-  id,
-  title,
-}: MediaPlayerProps) {
+export function MediaPlayer({ type, id, title }: MediaPlayerProps) {
   const playerUrl = buildPlayerUrl(type, id)
 
   return (
@@ -46,10 +38,7 @@ export function MediaPlayer({
           </div>
 
           <div>
-            <p className="font-medium">
-              Video oynatıcı hazır
-            </p>
-
+            <p className="font-medium">Video oynatıcı hazır</p>
           </div>
 
           <div className="flex items-center gap-2 rounded-lg border bg-background/80 px-3 py-2 font-mono text-xs text-muted-foreground">

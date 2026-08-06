@@ -138,22 +138,26 @@ export const translations = {
       shortQuery: "Type at least {count} characters to search.",
       noResultsHint: "Try a different movie or series title.",
       popularMoviesTitle: "Popular this week",
-      popularMoviesDescription: "Discover the movies generating the most buzz right now.",
+      popularMoviesDescription:
+        "Discover the movies generating the most buzz right now.",
       popularTvTitle: "Popular series",
-      popularTvDescription: "Series that viewers are currently following the most.",
+      popularTvDescription:
+        "Series that viewers are currently following the most.",
       topRatedTitle: "Top rated movies",
       topRatedDescription: "Movies with the highest audience scores.",
     },
     browse: {
       invalidCategoryTitle: "Category not found",
-      invalidCategoryDescription: "The content category you are looking for does not exist.",
+      invalidCategoryDescription:
+        "The content category you are looking for does not exist.",
       contentError: "An error occurred while loading content.",
       failedToLoad: "Content could not be loaded",
       retry: "Try again",
     },
     watch: {
       invalidLinkDescription: "The movie or series link is not valid.",
-      detailsError: "An error occurred while retrieving the production details.",
+      detailsError:
+        "An error occurred while retrieving the production details.",
       notFound: "Production not found.",
       invalidLink: "Invalid link",
     },
@@ -209,27 +213,32 @@ export const translations = {
       shortQuery: "Gib mindestens {count} Zeichen ein, um zu suchen.",
       noResultsHint: "Versuche einen anderen Filmtitel oder Serientitel.",
       popularMoviesTitle: "Diese Woche beliebt",
-      popularMoviesDescription: "Entdecke die Filme, die gerade viel Aufmerksamkeit erhalten.",
+      popularMoviesDescription:
+        "Entdecke die Filme, die gerade viel Aufmerksamkeit erhalten.",
       popularTvTitle: "Beliebte Serien",
-      popularTvDescription: "Serien, denen die Zuschauer derzeit am meisten folgen.",
+      popularTvDescription:
+        "Serien, denen die Zuschauer derzeit am meisten folgen.",
       topRatedTitle: "Bestbewertete Filme",
       topRatedDescription: "Filme mit den höchsten Zuschauerbewertungen.",
     },
     browse: {
       invalidCategoryTitle: "Kategorie nicht gefunden",
-      invalidCategoryDescription: "Die gesuchte Inhaltskategorie existiert nicht.",
+      invalidCategoryDescription:
+        "Die gesuchte Inhaltskategorie existiert nicht.",
       contentError: "Beim Laden des Inhalts ist ein Fehler aufgetreten.",
       failedToLoad: "Inhalt konnte nicht geladen werden",
       retry: "Erneut versuchen",
     },
     watch: {
       invalidLinkDescription: "Der Film- oder Serienlink ist ungültig.",
-      detailsError: "Beim Abrufen der Produktionsdetails ist ein Fehler aufgetreten.",
+      detailsError:
+        "Beim Abrufen der Produktionsdetails ist ein Fehler aufgetreten.",
       notFound: "Produktion nicht gefunden.",
       invalidLink: "Ungültiger Link",
     },
     media: {
-      overviewFallback: "Für diese Produktion ist noch keine Beschreibung verfügbar.",
+      overviewFallback:
+        "Für diese Produktion ist noch keine Beschreibung verfügbar.",
       topic: "Zusammenfassung",
       genre: "Genre",
       releaseDate: "Veröffentlichungsdatum",
@@ -280,27 +289,34 @@ export const translations = {
       shortQuery: "Saisissez au moins {count} caractères pour rechercher.",
       noResultsHint: "Essayez un autre titre de film ou de série.",
       popularMoviesTitle: "Populaires cette semaine",
-      popularMoviesDescription: "Découvrez les films qui suscitent le plus d’intérêt en ce moment.",
+      popularMoviesDescription:
+        "Découvrez les films qui suscitent le plus d’intérêt en ce moment.",
       popularTvTitle: "Séries populaires",
-      popularTvDescription: "Les séries que les spectateurs suivent actuellement le plus.",
+      popularTvDescription:
+        "Les séries que les spectateurs suivent actuellement le plus.",
       topRatedTitle: "Films les mieux notés",
-      topRatedDescription: "Les films avec les meilleures notes de la part des spectateurs.",
+      topRatedDescription:
+        "Les films avec les meilleures notes de la part des spectateurs.",
     },
     browse: {
       invalidCategoryTitle: "Catégorie introuvable",
-      invalidCategoryDescription: "La catégorie de contenu que vous recherchez n’existe pas.",
+      invalidCategoryDescription:
+        "La catégorie de contenu que vous recherchez n’existe pas.",
       contentError: "Une erreur s’est produite lors du chargement du contenu.",
       failedToLoad: "Le contenu n’a pas pu être chargé",
       retry: "Réessayer",
     },
     watch: {
-      invalidLinkDescription: "Le lien du film ou de la série n’est pas valide.",
-      detailsError: "Une erreur s’est produite lors de la récupération des détails de la production.",
+      invalidLinkDescription:
+        "Le lien du film ou de la série n’est pas valide.",
+      detailsError:
+        "Une erreur s’est produite lors de la récupération des détails de la production.",
       notFound: "Production introuvable.",
       invalidLink: "Lien invalide",
     },
     media: {
-      overviewFallback: "Aucune description n’est disponible pour cette production pour le moment.",
+      overviewFallback:
+        "Aucune description n’est disponible pour cette production pour le moment.",
       topic: "Résumé",
       genre: "Genre",
       releaseDate: "Date de sortie",
@@ -351,27 +367,33 @@ export const translations = {
       shortQuery: "Escribe al menos {count} caracteres para buscar.",
       noResultsHint: "Prueba con un título diferente de película o serie.",
       popularMoviesTitle: "Populares esta semana",
-      popularMoviesDescription: "Descubre las películas que más conversación están generando ahora.",
+      popularMoviesDescription:
+        "Descubre las películas que más conversación están generando ahora.",
       popularTvTitle: "Series populares",
-      popularTvDescription: "Las series que los espectadores siguen más en este momento.",
+      popularTvDescription:
+        "Las series que los espectadores siguen más en este momento.",
       topRatedTitle: "Películas mejor valoradas",
-      topRatedDescription: "Películas con las puntuaciones más altas del público.",
+      topRatedDescription:
+        "Películas con las puntuaciones más altas del público.",
     },
     browse: {
       invalidCategoryTitle: "Categoría no encontrada",
-      invalidCategoryDescription: "La categoría de contenido que buscas no existe.",
+      invalidCategoryDescription:
+        "La categoría de contenido que buscas no existe.",
       contentError: "Ocurrió un error al cargar el contenido.",
       failedToLoad: "No se pudo cargar el contenido",
       retry: "Reintentar",
     },
     watch: {
       invalidLinkDescription: "El enlace de la película o serie no es válido.",
-      detailsError: "Ocurrió un error al recuperar los detalles de la producción.",
+      detailsError:
+        "Ocurrió un error al recuperar los detalles de la producción.",
       notFound: "No se encontró la producción.",
       invalidLink: "Enlace no válido",
     },
     media: {
-      overviewFallback: "Todavía no hay una descripción disponible para esta producción.",
+      overviewFallback:
+        "Todavía no hay una descripción disponible para esta producción.",
       topic: "Resumen",
       genre: "Género",
       releaseDate: "Fecha de estreno",
@@ -394,12 +416,23 @@ export const translations = {
   },
 } as const
 
-export function isLanguage(value: string | null | undefined): value is Language {
-  return value === "tr" || value === "en" || value === "de" || value === "fr" || value === "es"
+export function isLanguage(
+  value: string | null | undefined
+): value is Language {
+  return (
+    value === "tr" ||
+    value === "en" ||
+    value === "de" ||
+    value === "fr" ||
+    value === "es"
+  )
 }
 
 export function getLanguageLabel(language: Language) {
-  return SUPPORTED_LANGUAGES.find((option) => option.value === language)?.nativeLabel ?? language
+  return (
+    SUPPORTED_LANGUAGES.find((option) => option.value === language)
+      ?.nativeLabel ?? language
+  )
 }
 
 export function getLocale(language: Language) {

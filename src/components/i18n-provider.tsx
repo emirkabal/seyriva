@@ -51,7 +51,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     window.addEventListener("seyriva-language-change", handleLanguageChange)
 
     return () => {
-      window.removeEventListener("seyriva-language-change", handleLanguageChange)
+      window.removeEventListener(
+        "seyriva-language-change",
+        handleLanguageChange
+      )
     }
   }, [])
 
@@ -59,7 +62,9 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     setLanguageState(nextLanguage)
     if (typeof window !== "undefined") {
       window.localStorage.setItem(STORAGE_KEY, nextLanguage)
-      window.dispatchEvent(new CustomEvent("seyriva-language-change", { detail: nextLanguage }))
+      window.dispatchEvent(
+        new CustomEvent("seyriva-language-change", { detail: nextLanguage })
+      )
     }
   }
 
@@ -75,14 +80,14 @@ export function I18nProvider({ children }: { children: ReactNode }) {
         return value === undefined ? match : String(value)
       })
     },
-    [language],
+    [language]
   )
 
   const locale = useMemo(() => getLocale(language), [language])
 
   const value = useMemo<I18nContextValue>(
     () => ({ language, setLanguage, t, locale }),
-    [language, locale, t],
+    [language, locale, t]
   )
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>

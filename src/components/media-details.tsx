@@ -35,11 +35,11 @@ function formatRuntime(minutes: number | null, t: (key: string) => string) {
   return `${hours}${t("media.hoursShort")} ${remainingMinutes}${t("media.minutesShort")}`
 }
 
-export function MediaDetailsPanel({
-  media,
-}: MediaDetailsProps) {
+export function MediaDetailsPanel({ media }: MediaDetailsProps) {
   const { t, i18n } = useTranslation()
-  const locale = getLocale((i18n.resolvedLanguage ?? i18n.language ?? "tr") as Language)
+  const locale = getLocale(
+    (i18n.resolvedLanguage ?? i18n.language ?? "tr") as Language
+  )
   const isMovie = media.mediaType === "movie"
   const runtime = formatRuntime(media.runtimeMinutes, t)
 
@@ -82,7 +82,7 @@ export function MediaDetailsPanel({
         )}
 
         {media.tagline && (
-          <p className="mt-5 text-lg italic text-muted-foreground">
+          <p className="mt-5 text-lg text-muted-foreground italic">
             “{media.tagline}”
           </p>
         )}
@@ -130,11 +130,9 @@ export function MediaDetailsPanel({
         )}
 
         <div className="mt-8">
-          <h2 className="text-lg font-semibold">
-            {t("media.topic")}
-          </h2>
+          <h2 className="text-lg font-semibold">{t("media.topic")}</h2>
 
-          <p className="mt-3 max-w-3xl whitespace-pre-line text-sm leading-7 text-muted-foreground md:text-base">
+          <p className="mt-3 max-w-3xl text-sm leading-7 whitespace-pre-line text-muted-foreground md:text-base">
             {media.overview || t("media.overviewFallback")}
           </p>
         </div>
@@ -204,10 +202,7 @@ export function MediaDetailsPanel({
             )}
 
             {media.status && (
-              <DetailRow
-                label={t("media.status")}
-                value={media.status}
-              />
+              <DetailRow label={t("media.status")} value={media.status} />
             )}
 
             {runtime && (
@@ -239,19 +234,12 @@ interface DetailRowProps {
   value: string
 }
 
-function DetailRow({
-  label,
-  value,
-}: DetailRowProps) {
+function DetailRow({ label, value }: DetailRowProps) {
   return (
     <div className="flex items-start justify-between gap-4">
-      <span className="text-muted-foreground">
-        {label}
-      </span>
+      <span className="text-muted-foreground">{label}</span>
 
-      <span className="text-right font-medium">
-        {value}
-      </span>
+      <span className="text-right font-medium">{value}</span>
     </div>
   )
 }

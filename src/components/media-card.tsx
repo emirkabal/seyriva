@@ -13,7 +13,8 @@ interface MediaCardProps {
 export const MediaCard = forwardRef<HTMLDivElement, MediaCardProps>(
   function MediaCard({ media }, ref) {
     const { t } = useTranslation()
-    const mediaLabel = media.mediaType === "movie" ? t("common.movie") : t("common.tvShow")
+    const mediaLabel =
+      media.mediaType === "movie" ? t("common.movie") : t("common.tvShow")
 
     return (
       <motion.div
@@ -69,9 +70,7 @@ export const MediaCard = forwardRef<HTMLDivElement, MediaCardProps>(
             </div>
 
             <div className="min-w-0 flex-1">
-              <p className="truncate font-medium">
-                {media.title}
-              </p>
+              <p className="truncate font-medium">{media.title}</p>
 
               <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-muted-foreground">
                 <span className="flex items-center gap-1">
@@ -104,7 +103,7 @@ export const MediaCard = forwardRef<HTMLDivElement, MediaCardProps>(
               </div>
 
               {media.overview && (
-                <p className="mt-2 line-clamp-2 whitespace-normal text-xs leading-relaxed text-muted-foreground">
+                <p className="mt-2 line-clamp-2 text-xs leading-relaxed whitespace-normal text-muted-foreground">
                   {media.overview}
                 </p>
               )}
@@ -113,7 +112,7 @@ export const MediaCard = forwardRef<HTMLDivElement, MediaCardProps>(
         </Button>
       </motion.div>
     )
-  },
+  }
 )
 
 MediaCard.displayName = "MediaCard"

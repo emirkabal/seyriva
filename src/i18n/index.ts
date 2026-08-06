@@ -39,12 +39,23 @@ export const SUPPORTED_LANGUAGES = [
   },
 ] as const
 
-export function isLanguage(value: string | null | undefined): value is Language {
-  return value === "tr" || value === "en" || value === "de" || value === "fr" || value === "es"
+export function isLanguage(
+  value: string | null | undefined
+): value is Language {
+  return (
+    value === "tr" ||
+    value === "en" ||
+    value === "de" ||
+    value === "fr" ||
+    value === "es"
+  )
 }
 
 export function getLanguageLabel(language: Language) {
-  return SUPPORTED_LANGUAGES.find((option) => option.value === language)?.nativeLabel ?? language
+  return (
+    SUPPORTED_LANGUAGES.find((option) => option.value === language)
+      ?.nativeLabel ?? language
+  )
 }
 
 export function getLocale(language: Language) {
