@@ -147,7 +147,7 @@ export class TMDBError extends Error {
 
 function getAccessToken(): string {
   const token =
-    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkNjAyNmUzOTNlYjUyNDNhZjNjZjg0MjExYWNkNDZmZSIsIm5iZiI6MTY3NTA0MTc0MS45ODUsInN1YiI6IjYzZDcxYmNkMTdjNDQzMDA3YjY4MzQ3YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6qAP27OpriPcApMqskIRrxyjHk0NFa0gyTm2Cc3BESE"
+    "d6026e393eb5243af3cf84211acd46fe"
 
   if (!token) {
     throw new Error("TMDB_ACCESS_TOKEN environment variable is missing")
@@ -305,6 +305,7 @@ async function fetchFromTMDB<T>(
   params: Record<string, TMDBQueryValue> = {}
 ): Promise<T> {
   const url = new URL(`${TMDB_API_BASE}${endpoint}`)
+  url.searchParams.set("api_key", getAccessToken())
 
   for (const [key, value] of Object.entries(params)) {
     if (value !== undefined && value !== null) {
@@ -316,7 +317,6 @@ async function fetchFromTMDB<T>(
     const response = await fetch(url, {
       headers: {
         Accept: "application/json",
-        Authorization: `Bearer ${getAccessToken()}`,
       },
       signal: AbortSignal.timeout(10_000),
     })
